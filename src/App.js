@@ -1,27 +1,31 @@
 import Header from './components/Header'
+import Aside from './components/Aside'
 import Vitrine from './components/Vitrine'
 import News from './components/News'
 import Footer from './components/Footer'
 import { useState } from 'react'
 import { getCarrinho} from './helpers/session'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
 
-  let valor = getCarrinho
-  let atual = parseInt(valor)
+  let atual = parseInt(getCarrinho)
   
   const [carrinho, setCarrinho ] = useState(atual)
+
+  const onAdd = () => {
+    setCarrinho(carrinho + 1)
+    
+    localStorage.setItem('carrinho', carrinho+1)
+  }
 
   return (
     
     <>
       <Header quantidade={carrinho}/>
-
-      <div className="Carousel">
-        <h1>Carousel</h1>
-      </div>
-
-      <Vitrine />
+      {/* <Aside /> */}
+      <Vitrine onAdd={onAdd}/>
       <News />
       <Footer />
     </>

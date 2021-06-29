@@ -1,12 +1,14 @@
 import VitrineCarousel from '../VitrineCarousel'
 import './style.css'
 
-const Vitrine = () => {
+const Vitrine = (props) => {
+
+    const { onAdd } = props
     return (
         <main>
             <h3>Mais Vendidos</h3>
             <div id="linhaMain"></div>
-            <VitrineCarousel />
+            <VitrineCarousel onAdd={onAdd} />
         </main>
     )
 } 
