@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.menuHeader svg {
+    font-size: 7vh!important;
+}
+
+.logoHeader img {
+    height: 5vh;
+    margin-top: 3px;
+}
+
+#carrinho {
+    display: flex;
+    align-items: center;
+}
+
+#carrinho svg {
+    font-size: 4vh!important;
+}
+
+#carrinho p{
+    background-color: rgba(248, 71, 95, 1);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    width: 25px;
+    margin: 0;
+}
+
+.searchHeader {
+    margin: 2vh 7vw 0;
+}
+
+.logoHeader input {
+    display: none;
+}
+
+.searchHeader input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.logoHeader input:focus-visible,
+.searchHeader input:focus-visible{
+    outline: none
+}

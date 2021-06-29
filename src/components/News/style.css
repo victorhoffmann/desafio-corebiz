@@ -1,0 +1,75 @@
+#news {
+    background-color: rgba(242, 242, 242, 1);
+    padding: 0 0 3vh;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#news h2 {
+    margin: 0;
+    padding: 2vh 0;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.formField {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+}
+
+.formField :last-child {
+    margin-bottom: 2vh
+}
+
+form input {
+    border-radius: 5px;
+    border: none;
+    height: 48px;
+}
+
+form input::placeholder {
+    color: rgba(88, 88, 88, 1);
+    font-family: 'Lato', sans-serif;
+    padding-left: 30px;
+}
+
+.formField span {
+    color: red;
+}
+
+.btnNews, .btnRefazer {
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: white;
+    height: 48px;
+    width: 288px;
+}
+
+.btnRefazer {
+    width: 320px;
+}
+
+.refazer h3, .refazer p {
+    margin: 0;
+}
+
+.refazer h3 {
+    padding-top: 3.5vh;
+}
+
+.refazer p {
+    padding-bottom: 3.5vh;
+}
+
+@media only screen and (min-width: 575px) {
+    .formField {
+        margin-right: 1vw;
+    }
+}
