@@ -1,0 +1,9 @@
+main h3 {
+    margin-bottom: 0;
+}
+
+#linhaMain {
+    border: 3.5px solid #C0C0C0;
+    width: 32px;
+    background-color: #C0C0C0;;
+}

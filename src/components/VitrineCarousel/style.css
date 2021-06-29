@@ -1,0 +1,12 @@
+.center {
+    display: flex;
+}
+
+.carousel__card {
+    margin: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+

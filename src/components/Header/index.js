@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
 import logo from '../../assets/images/logo-svg.svg'
 import MenuIcon from '@material-ui/icons/Menu';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import { getCarrinho } from '../../helpers/session'
-
 import './style.css'
 
-const Header = () => {
-
-    const [carrinho, setCarrinho ] = useState(getCarrinho)
+const Header = (props) => {
 
     return (
         <header>
@@ -22,7 +17,7 @@ const Header = () => {
                 </div>
                 <div id="carrinho">
                     <ShoppingCartIcon />
-                    <p>{carrinho}</p>
+                    <p>{props.quantidade}</p>
                 </div>
             </nav>
             <div className="searchHeader">

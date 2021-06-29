@@ -49,6 +49,9 @@ form input::placeholder {
     background-color: #000;
     color: white;
     height: 48px;
+}
+
+.btnNews {
     width: 288px;
 }
 

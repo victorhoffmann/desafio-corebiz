@@ -1,3 +1,4 @@
+import VitrineCarousel from '../VitrineCarousel'
 import './style.css'
 
 const Vitrine = () => {
@@ -5,6 +6,7 @@ const Vitrine = () => {
         <main>
             <h3>Mais Vendidos</h3>
             <div id="linhaMain"></div>
+            <VitrineCarousel />
         </main>
     )
 } 
