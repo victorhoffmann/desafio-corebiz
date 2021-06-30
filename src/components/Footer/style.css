@@ -67,29 +67,3 @@ footer {
 #created img{
     filter: invert(100%);
 }
-
-/* @media only screen and (min-width: 850px) {
-    footer {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .localizacao {
-        padding: 3vh 0;
-    }
-
-    .btnContatos {
-        margin-top: 0;
-    }
-
-    .logosFooter {
-        margin-top: 0;
-        padding-bottom: 0;
-    }
-
-    #powered {
-        margin-left: 20px;
-    }
-}
- */
