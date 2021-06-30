@@ -1,5 +1,5 @@
 <h1 align="center">
-  ![img](https://i.ibb.co/2NZ6J2S/corebiz.png)
+<img src="https://i.ibb.co/2NZ6J2S/corebiz.png)">
   <br>Trabalhar na Corebiz: Front End
 </h1>
 
