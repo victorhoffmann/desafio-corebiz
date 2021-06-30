@@ -1,9 +1,19 @@
-main h3 {
-    margin-bottom: 0;
+.maxWidth {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vitrine {
+    margin: 0 10px;
+}
+
+.vitrine h3 {
+    margin: 18px 0 0 20px;
 }
 
 #linhaMain {
     border: 3.5px solid #C0C0C0;
     width: 32px;
-    background-color: #C0C0C0;;
+    background-color: #C0C0C0;
+    margin-left: 20px;
 }

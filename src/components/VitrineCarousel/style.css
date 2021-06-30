@@ -1,12 +1,80 @@
-.center {
+.centerVitrine {
     display: flex;
 }
 
 .carousel__card {
-    margin: 8px;
-    padding: 16px;
+    margin: 16px;
     display: flex;
     flex-direction: column;
-    width: 160px;
+    width: 170px;
+    text-align: center;
 }
 
+.carousel__infosCard p {
+    margin: 0;
+    color: rgba(122, 122, 122, 1);
+}
+
+.carousel__infosCard .titleProduto {
+    font-size: 13px;
+    color: rgba(122, 122, 122, 1);
+}
+
+.carousel__infosCard .estrelas {
+    margin: 5px 0;
+    color: rgba(248, 71, 95, 1);
+}
+
+.carousel__infosCard .antigoProduto {
+    height: 22px;
+    text-decoration: line-through;
+}
+
+.carousel__infosCard .precoProduto {
+    font-weight: bolder;
+    color: black;
+}
+
+.carousel__infosCard .parcelamento {
+    font-size: 15px;
+}
+
+.carousel__infosCard button {
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+    width: 60%;
+    color: white;
+    background-color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.carousel__card:hover {
+    background-color: #E6E8EA;;
+}
+
+.desconto {
+    display: flex;
+    position: absolute;
+    bottom: 230px;
+}
+
+.desconto img {
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}
+
+.desconto p {
+    position: absolute;
+    left: 123px;
+    color: white;
+    bottom: 40px;
+}
+
+@media only screen and (min-width: 1039px) {
+    .centerVitrine {
+        justify-content: center;
+    }
+}

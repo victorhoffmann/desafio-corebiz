@@ -3,6 +3,7 @@
     padding: 0 0 3vh;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    margin-top: 5vh
 }
 
 #news h2 {
@@ -49,6 +50,7 @@ form input::placeholder {
     background-color: #000;
     color: white;
     height: 48px;
+    cursor: pointer;
 }
 
 .btnNews {

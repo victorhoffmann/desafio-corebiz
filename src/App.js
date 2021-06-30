@@ -5,8 +5,6 @@ import News from './components/News'
 import Footer from './components/Footer'
 import { useState } from 'react'
 import { getCarrinho} from './helpers/session'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 function App() {
 
@@ -24,7 +22,7 @@ function App() {
     
     <>
       <Header quantidade={carrinho}/>
-      {/* <Aside /> */}
+      <Aside />
       <Vitrine onAdd={onAdd}/>
       <News />
       <Footer />

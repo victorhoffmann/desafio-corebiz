@@ -32,6 +32,7 @@ footer {
     height: 38px;
     width: 200px;
     border: none;
+    cursor: pointer;
 }
 
 .btnContatos button:first-child {

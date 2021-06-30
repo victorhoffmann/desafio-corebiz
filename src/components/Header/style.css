@@ -1,8 +1,3 @@
-header {
-    display: flex;
-    flex-direction: column;
-}
-
 nav {
     display: flex;
     flex-direction: row; 
@@ -13,26 +8,46 @@ nav {
     font-size: 7vh!important;
 }
 
+.logoHeader {
+    display: flex;
+    align-items: baseline;
+}
+
 .logoHeader img {
     height: 5vh;
     margin-top: 3px;
 }
 
+.searchLogo {
+    display: none;
+}
+
 #carrinho {
     display: flex;
     align-items: center;
+    padding-bottom: 3px;
 }
 
 #carrinho svg {
     font-size: 4vh!important;
 }
 
-#carrinho p{
+#carrinho .user {
+    display: none;
+}
+
+#carrinho .cart {
+    display: flex;
+    align-items: center;
+}
+
+#carrinho .cart p{
     background-color: rgba(248, 71, 95, 1);
     border-radius: 50%;
     color: white;
     text-align: center;
     width: 25px;
+    height: 25px;
     margin: 0;
 }
 
@@ -40,17 +55,76 @@ nav {
     margin: 2vh 7vw 0;
 }
 
-.logoHeader input {
-    display: none;
+.busca {
+    display: flex;
+    flex-direction: row;
 }
 
 .searchHeader input {
     border: none;
-    border-bottom: 1px solid black;
     width: 100%;
+}
+
+.searchHeader .linhaSearch {
+    border: 1px solid rgba(122, 122, 122, 1);
 }
 
 .logoHeader input:focus-visible,
 .searchHeader input:focus-visible{
     outline: none
+}
+
+@media only screen and (min-width: 772px) {
+    .menuHeader{
+        display: none;
+    }
+
+    #carrinho {
+        padding: 10px 0 0;
+    }
+
+    #carrinho .user{
+        display: flex;
+        padding-right: 10px;
+        align-items: center;
+    }
+
+    #carrinho .user p {
+        color: rgba(122, 122, 122, 1);
+    }
+}
+
+@media only screen and (min-width: 999px) {
+    .logoHeader .searchLogo {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .logoHeader {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .buscaLogo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buscaLogo input {
+        background-color: transparent;
+        border: none;
+        color: black;
+    }
+
+    .linhaLogo {
+        border: 1px solid rgba(122, 122, 122, 1);
+    }
+
+    .searchHeader {
+        display: none;
+    }
+
+    #carrinho {
+        width: 20%;
+    }
 }
