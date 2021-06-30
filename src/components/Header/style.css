@@ -10,12 +10,12 @@ nav {
 
 .logoHeader {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .logoHeader img {
     height: 5vh;
-    margin-top: 3px;
+    margin-top: -13px;
 }
 
 .searchLogo {
@@ -98,6 +98,7 @@ nav {
     .logoHeader .searchLogo {
         display: inline-block;
         width: 50%;
+        margin-top: 15px;
     }
 
     .logoHeader {

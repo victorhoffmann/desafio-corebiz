@@ -26,7 +26,8 @@ const Aside = () => {
                 <div id="img2" style={{ backgroundImage: `url(${fundo})` }}></div>
                 <div className='titleCarousel'>
                     <p>Olá, o que você está buscando?</p>
-                    <p><span>Criar ou migrar seu e-commerce?</span></p>
+                    <p><span>Criar ou migrar seu</span></p>
+                    <p><span>e-commerce?</span></p>
                 </div>
                 <div className="center">
                     {placeholders.map((item, index) => {

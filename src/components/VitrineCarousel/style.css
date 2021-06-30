@@ -73,6 +73,16 @@
     bottom: 40px;
 }
 
+.ejXxNI {
+    background-color: rgba(248, 71, 95, 1)!important;
+    box-shadow: 0 0 1px 3px rgb(248 71 95)!important;
+}
+
+.jLgnwX {
+    background-color: rgba(189, 189, 189, 1)!important;
+    box-shadow: 0 0 1px 2px rgb(189 189 189)!important;
+}
+
 @media only screen and (min-width: 1039px) {
     .centerVitrine {
         justify-content: center;
