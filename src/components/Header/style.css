@@ -8,6 +8,12 @@ nav {
     font-size: 7vh!important;
 }
 
+.menuHeader button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 .logoHeader {
     display: flex;
     align-items: center;
@@ -34,6 +40,14 @@ nav {
 
 #carrinho .user {
     display: none;
+}
+
+.userToggle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2vh;
 }
 
 #carrinho .cart {
@@ -75,7 +89,7 @@ nav {
 }
 
 @media only screen and (min-width: 772px) {
-    .menuHeader{
+    .menuHeader, .userToggle{
         display: none;
     }
 
